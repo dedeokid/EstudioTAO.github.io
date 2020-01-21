@@ -188,8 +188,7 @@ font-size:calc(100% + 1vw)/*prevent being too small*/;
   color: gold;
   padding: 1vw 1vw;
   text-decoration: none;
-  display: block;
-  
+  display: block;  
 }
 .dropdown:hover .dropdown-content {
   display: inline-block;
