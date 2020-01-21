@@ -1,0 +1,134 @@
+<!DOCTYPE html><!-- Declaramos que iremos usar o HTML 5 -->
+<html lang="pt-br">	<!-- Inicia ciclo de Programação HTML com idioma da página em PT-BR-->
+	<head>			<!-- Inicia a parte das configurações -->
+		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
+		<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+		<meta charset="utf-8"><!--Este elemento define o tipo da codificação dos caracteres SEMPRE BOM COLOCAR-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Enxerga o tamanho da tela do dispositivo-->
+        <title> 
+            Estúdio TAO
+        </title> 
+<style>
+
+</style>
+</head>
+	<body>
+		
+	<div class="logo">
+	
+	
+	
+	<h3 style="color:white;font-size:calc(125% + 1vw)/*prevent being too small*/;">Estúdio TAO<br> de Artes, Tecnologias e Ofícios</h3>
+	  <h2 style="color:white;padding-left:10vw ;font-size:calc(50% + 1vw)/*prevent being too small*/">programação filosófica, metodologia sistêmica, arte transcedental, ancestralidade e tecnologia</h2>
+		<!--<img src="Imagens/SomenteTAO.png" alt="TAO" style="width:100%; z-index: -1;">-->
+	</div>	
+
+	<!-- Background Vídeo -->
+	<div class="video-container">	
+		<video autoplay muted loop id="myVideo">
+			<source src="Videos/Tao_4dimensao_MPEG4_small.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		</video>
+	<!--<button id="myBtn" onclick="backVideo()">Pause</button>-->
+	</div>	
+	<!--finaliza Vídeo-->
+	
+<hr>
+	<!-- Top Navigation Menu -->
+	<div class="topnav">
+	<a href="#principal" class="active" onclick="principal()" style="padding-right:10vw;">Principal</a>
+		<div id="myLinks">
+			<a href="#criacoes" onclick="criacoes()">Criação e Desenvolvimento</a>
+						
+			<div class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Cursos e Oficinas</a>
+				<div class="dropdown-content">
+				  <a href="#">Criação e Desenvolvimento de Jogos Analógicos</a>
+				  <a href="#">Design e Arte para Jogos Digitais</a>
+				  <a href="#">Programação para Jogos Digitais</a>
+				  <a href="#">Criação, Crítica e Desenvolvimento para WEB</a>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Dinâmicas Sistêmicas</a>
+				<div class="dropdown-content">
+				  <a href="#">Dinâmicas para Empresas através do RPG</a>
+				  <a href="#">RPG didático para Jovens estudantes</a>
+				  <a href="#">RPG como ferramenta didática para Professores</a>
+				  <a href="#">RPG lúdico para Crianças</a>
+				</div>
+			</div>
+			
+			<a href="#contato" onclick="contato()">Contate-nos</a>
+						
+		</div>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	  <div class="triangle-down"></div>
+		<i class="fa fa-bars"></i>
+	  </a>
+		<!-- End Navigation Menu --> 
+	</div>
+	
+<!-- Simulate a smartphone / tablet -->
+	<div class="mobile-container">
+		
+		<p class="efeitoleitura">Jogos Analógicos são os tradicionais jogos de tabuleiro, de dados, de cartas, de encaixe, de adivinhação<br> No Taoísmo o caminho do sábio é natural, espontâneo e sem sofrimento.<br></p>
+		<p class="efeitoleitura">História dos Jogos Analógicos<p>
+		<p class="efeitoleitura">Métodos em Design e Arte para Jogos Analógicos</p> 
+		<p class="efeitoleitura">Cada aluno cria seu próprio Jogo Analógico!</p>
+		<p class="efeitoleitura">Ao final Jogamos juntos!</p>
+		
+	</div>
+	<!-- End smartphone / tablet look -->
+	
+
+			<script>
+			function myFunction() {
+			  var x = document.getElementById("myLinks");
+			  if (x.style.display === "block") {
+				x.style.display = "none";
+			  } else {
+				x.style.display = "block";
+			  }
+			 }
+			 function contato(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+			function dinamicas(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+			function cursos(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+			function criacoes(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+			function principal(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+		
+		
+			var video = document.getElementById("Videos/Tao_4dimensao_MPEG4.mp4");
+			var btn = document.getElementById("myBtn");
+
+			function backVideo() {
+			  if (video.paused) {
+				video.play();
+				btn.innerHTML = "Pause";
+			  } else {
+				video.pause();
+				btn.innerHTML = "Play";
+			  }
+			}
+			</script>
+	
+	</body>
+</html>
