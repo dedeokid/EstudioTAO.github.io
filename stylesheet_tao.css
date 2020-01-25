@@ -131,6 +131,7 @@ font-size:calc(50% + 1vw)/*prevent being too small*/;
   background: white;
   padding: 1vw 1vw 1vw 1vw;
   display: block;   
+  float:right;
   position: absolute;
   right: 1vw;
   top: 0;
