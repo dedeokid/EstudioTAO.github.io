@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg9807"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Terra.svg">
+  <defs
+     id="defs9809" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-36.393608"
+     inkscape:cy="1038.7511"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1290"
+     inkscape:window-height="762"
+     inkscape:window-x="26"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata9812">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect9753"
+       style="fill:#000000;stroke:#000000"
+       d="m -10.342636,-45.659157 c 8.2569001,5.58606 7.0031401,19.731989 8.7210001,28.967309 0.3444,4.443209 0.53253,8.8979995 0.59181,13.3539295 -14.3185801,0.1467 -32.3286921,-1.50243 -43.9791591,-7.1457605 0,6.7192505 0,13.4384705 0,20.15772 5.59995,-8.2544095 19.744169,-7.0013995 28.987319,-8.7182695 4.99191,-0.38583 9.9982202,-0.57657 15.0046201,-0.60594 -0.44571,14.1992705 -0.44562,32.8848915 -7.5924001,43.9910115 6.3113701,0 12.6227401,0 18.93411,0 C 2.4649941,31.557663 3.5023941,14.975612 2.6597541,0.3653115 c 13.6574089,0.48963 31.7352009,0.67758 42.3312609,7.5759899 0,-6.3113699 0,-12.6227399 0,-18.9341094 -12.27462,7.6243795 -28.234352,6.7432195 -42.3043509,7.6412095 -0.1398,-13.7602795 1.77894,-31.1926485 7.12887,-42.3075585 -6.7194,0 -13.43877,0 -20.1581701,0 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
