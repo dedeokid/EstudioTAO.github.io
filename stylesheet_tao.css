@@ -88,7 +88,7 @@ video {
 	font-family: 'Share Tech Mono', serif;
 	min-width: 98%;
 	width:92vw;
-	max-height:calc(5% +1vw);
+	max-height:calc(3% +1vw);
     
 	border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
     border-style: outset; /* estilos de borda */
