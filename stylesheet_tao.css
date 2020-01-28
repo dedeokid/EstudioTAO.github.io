@@ -32,7 +32,7 @@ body {
 
 video {
   width: 20%;
-  max-width:20vw;
+  max-width:30vw;
   height: auto;
 	display: block;
 	margin: 0 auto;
@@ -88,7 +88,7 @@ video {
 	font-family: 'Share Tech Mono', serif;
 	
 	 width: 98vw;
-  height: auto;
+  height:30vw;
 	 max-height:15vw;
 	border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
     border-style: outset; /* estilos de borda */
