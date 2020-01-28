@@ -95,7 +95,7 @@ video {
     border-color: #000; /* uma cor de borda para cada lado */
 	border-radius:1vw;	
 	
-  background-image: linear-gradient(-45deg,rgba(45,255,155,0.9),rgba(255,255,255,0.1),rgba(155,255,45,0.6));
+  background-image: linear-gradient(-45deg,rgba(45,255,155,0.98),rgba(255,255,255,0.1),rgba(155,255,45,0.78));
   z-index:4;
   position: fixed;
    padding: 1vw;
@@ -103,7 +103,7 @@ video {
   top: 1vw;
   display: block;
 margin: 0 auto;
-font-size:calc(200% + 1vw)
+font-size:calc(100% + 1vw)
 }
 /*fundo do top nav */
 .topnav {
