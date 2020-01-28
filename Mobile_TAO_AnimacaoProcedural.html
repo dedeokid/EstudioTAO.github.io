@@ -1,16 +1,15 @@
 <!DOCTYPE html><!-- Declaramos que iremos usar o HTML 5 -->
 <html lang="pt-br">	<!-- Inicia ciclo de Programação HTML com idioma da página em PT-BR-->
 	<head>			<!-- Inicia a parte das configurações -->
-		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!-- link para referencias de configuração CSS de páginas online-->
+		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
 		<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 		<meta charset="utf-8"><!--Este elemento define o tipo da codificação dos caracteres SEMPRE BOM COLOCAR-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Enxerga o tamanho da tela do dispositivo-->
         			
-		<script type="text/javascript" src = "Processing.js"></script>
-		
+		<script type="text/javascript" src = "Processing.js"></script>		
 		
 		<title> 
             Estúdio TAO
@@ -19,14 +18,13 @@
 
 </style>
 </head>
+	
 	<body>
 		
-	<div class="logo">
-	
-	<h3 style="color:white;font-size:calc(125% + 1vw)/*prevent being too small*/;">Estúdio TAO<br> de Artes, Tecnologias e Ofícios</h3>
-	  <h2 style="color:white;padding-left:10vw ;font-size:calc(50% + 1vw)/*prevent being too small*/">programação filosófica, metodologia sistêmica, arte transcedental, ancestralidade e tecnologia</h2>
+	<div class="logo">	
+	<p><I><b>Estúdio TAO</b></I><br> de Artes, Tecnologias e Ofícios</p>
+	  <p>programação filosófica, metodologia sistêmica, arte transcedental, ancestralidade e tecnologia</p>
 		<!--<img src="Imagens/SomenteTAO.png" alt="TAO" style="width:100%; z-index: -1;">-->
-	
 	</div>	
 
 	<!-- Background Vídeo -->
@@ -36,6 +34,7 @@
 			<source src="Videos/Tao_4dimensao_WEBM_small.webm" type="video/webm">
 			Your browser does not support HTML5 video.
 		</video>
+		<br><br><br>
 	<button id="myBtn" onclick="backVideo()">Pause</button>
 	</div>	
 	<!--finaliza Vídeo-->
@@ -43,7 +42,7 @@
 <hr>
 	<!-- Top Navigation Menu -->
 	<div class="topnav">
-	<a href="#principal" class="active" onclick="principal()" style="padding-right:10vw;">Principal</a>
+	<a href="#principal" class="active" onclick="principal()">Principal</a>
 		<div id="myLinks">
 							
 			<div class="dropdown">
@@ -91,10 +90,8 @@
 <!-- Simulate a smartphone / tablet -->
 	<div class="mobile-container">		
 		
-		<pre>/* @pjs preload="ProcessingTAO/SolarSystemMagica/data/Sol.svg","ProcessingTAO/SolarSystemMagica/data/Uranus.svg","ProcessingTAO/SolarSystemMagica/data/Venus.svg"; */</pre>
-		
 		<p class="efeitoleitura" style="text-align:justify;text-decoration: underline;"><b>Desenho Procedural Alquímico</b></p>
-		<p class="efeitoleitura">Desenhos Procedurais são aqueles criados através de algum dispositivo com algum nível de sutomatização</p>
+		<p class="efeitoleitura">Desenhos Procedurais são aqueles criados através de algum dispositivo com algum nível de automatização</p>
 		<p class="efeitoleitura">No curso vemos:<br><br>1-História das Mídias, da idade da pedra à contemporâneidade<br>2-Introdução ao desenho procedural em Processing<br>3-Prática com cada aluno criando seu próprio Desenho Procedural!<br></p>
 		<br>
 		<p class="efeitoleitura" style="border-width: 0.2vw;border-style: outset;border-color: white;border-radius:12px;">Tempo de duração: 5 aulas de 4 horas cada uma totalizando 20 horas<br>Converse com o Estúdio TAO sobre os custos e as condições de realização, vamos até sua Escola ou Empresa</p>
@@ -151,7 +148,7 @@
 				window.open(url, '_top');
 				}
 				
-			function cursoJogoAnalogico(){
+			function cursoJogosAnalogicos(){
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoJogosAnalogicos.html";
 				window.open(url, '_top');
 			  	}

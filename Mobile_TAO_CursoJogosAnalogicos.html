@@ -1,8 +1,9 @@
 <!DOCTYPE html><!-- Declaramos que iremos usar o HTML 5 -->
 <html lang="pt-br">	<!-- Inicia ciclo de Programação HTML com idioma da página em PT-BR-->
 	<head>			<!-- Inicia a parte das configurações -->
-		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
+		
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!-- link para referencias de configuração CSS de páginas online-->
+		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
 		<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -15,12 +16,12 @@
 
 </style>
 </head>
+	
 	<body>
 		
-	<div class="logo">
-	
-	<h3 style="color:white;font-size:calc(125% + 1vw)/*prevent being too small*/;">Estúdio TAO<br> de Artes, Tecnologias e Ofícios</h3>
-	  <h2 style="color:white;padding-left:10vw ;font-size:calc(50% + 1vw)/*prevent being too small*/">programação filosófica, metodologia sistêmica, arte transcedental, ancestralidade e tecnologia</h2>
+	<div class="logo">	
+	<p><I><b>Estúdio TAO</b></I><br> de Artes, Tecnologias e Ofícios</p>
+	  <p>programação filosófica, metodologia sistêmica, arte transcedental, ancestralidade e tecnologia</p>
 		<!--<img src="Imagens/SomenteTAO.png" alt="TAO" style="width:100%; z-index: -1;">-->
 	</div>	
 
@@ -31,6 +32,7 @@
 			<source src="Videos/Tao_4dimensao_WEBM_small.webm" type="video/webm">
 			Your browser does not support HTML5 video.
 		</video>
+		<br><br><br>
 	<button id="myBtn" onclick="backVideo()">Pause</button>
 	</div>	
 	<!--finaliza Vídeo-->
@@ -38,7 +40,7 @@
 <hr>
 	<!-- Top Navigation Menu -->
 	<div class="topnav">
-	<a href="#principal" class="active" onclick="principal()" style="padding-right:10vw;">Principal</a>
+	<a href="#principal" class="active" onclick="principal()">Principal</a>
 		<div id="myLinks">
 							
 			<div class="dropdown">
@@ -145,7 +147,7 @@
 				window.open(url, '_top');
 				}
 				
-			function cursoJogoAnalogico(){
+			function cursoJogosAnalogicos(){
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoJogosAnalogicos.html";
 				window.open(url, '_top');
 			  	}

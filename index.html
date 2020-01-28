@@ -1,12 +1,15 @@
 <!DOCTYPE html><!-- Declaramos que iremos usar o HTML 5 -->
 <html lang="pt-br">	<!-- Inicia ciclo de Programação HTML com idioma da página em PT-BR-->
 	<head>			<!-- Inicia a parte das configurações -->
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!-- link para referencias de configuração CSS de páginas online-->
 		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
 		<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 		<meta charset="utf-8"><!--Este elemento define o tipo da codificação dos caracteres SEMPRE BOM COLOCAR-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Enxerga o tamanho da tela do dispositivo-->
+		
         <title> 
             Estúdio TAO
         </title> 
@@ -18,8 +21,8 @@
 	<body>
 		
 	<div class="logo">	
-	<h3 style="color:white;font-size:calc(125% + 1vw)/*prevent being too small*/;">Estúdio TAO<br> de Artes, Tecnologias e Ofícios</h3>
-	  <h2 style="color:white;padding-left:10vw ;font-size:calc(50% + 1vw)/*prevent being too small*/">programação filosófica, metodologia sistêmica, arte transcedental, ancestralidade e tecnologia</h2>
+	<p><I><b>Estúdio TAO</b></I><br> de Artes, Tecnologias e Ofícios</p>
+	  <p>programação filosófica, metodologia sistêmica, arte transcedental, ancestralidade e tecnologia</p>
 		<!--<img src="Imagens/SomenteTAO.png" alt="TAO" style="width:100%; z-index: -1;">-->
 	</div>	
 
@@ -27,16 +30,18 @@
 	<div class="video-container">	
 		<video autoplay muted loop id="myVideo">
 			<source src="Videos/Tao_4dimensao_MPEG4_small.mp4" type="video/mp4">
+			<source src="Videos/Tao_4dimensao_WEBM_small.webm" type="video/webm">
 			Your browser does not support HTML5 video.
 		</video>
-	<!--<button id="myBtn" onclick="backVideo()">Pause</button>-->
+		<br><br><br>
+	<button id="myBtn" onclick="backVideo()">Pause</button>
 	</div>	
 	<!--finaliza Vídeo-->
 	
 <hr>
 	<!-- Top Navigation Menu -->
 	<div class="topnav">
-	<a href="#principal" class="active" onclick="principal()" style="padding-right:10vw;">Principal</a>
+	<a href="#principal" class="active" onclick="principal()">Principal</a>
 		<div id="myLinks">
 							
 			<div class="dropdown">
@@ -83,10 +88,10 @@
 	
 <!-- Simulate a smartphone / tablet -->
 	<div class="mobile-container">
-		
-	<p class="efeitoleitura">A palavra chinesa TAO significa, literalmente, " o caminho".<br> No Taoísmo o caminho do sábio é natural, espontâneo e sem sofrimento.<br></p>
+	
+	<p class="efeitoleitura">A palavra chinesa TAO significa, literalmente, " o caminho".<br> No Taoísmo o caminho do sábio é natural, espontâneo e sem sofrimento.</p>
 		<p class="efeitoleitura">As criações do Estúdio TAO são ricas em estética e simbolismos<p>
-		<p class="efeitoleitura">Os cursos e oficinas do Estúdio TAO oferecem uma formação híbrida Arte/Ciência/Filosofia.</p> <br>
+		<p class="efeitoleitura">Os cursos e oficinas do Estúdio TAO oferecem uma formação híbrida Arte/Ciência/Filosofia.</p> 
 		<p class="efeitoleitura">As dinâmicas do Estúdio TAO são divertidas e promovem conhecimento e espírito de equipe</p>
 	<br><br>
 	<div class="efeitoleitura" style="text-align:right">
@@ -108,7 +113,7 @@
 				x.style.display = "block";
 			  }
 			 }
-			 function contato(){
+			  function contato(){
 				var url = "http://www.google.com";
 				window.open(url, '_top');
 			  	}
@@ -116,12 +121,12 @@
 				var url = "http://www.google.com";
 				window.open(url, '_top');
 			  	}
-				function principal(){
+			function principal(){
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/index.html";
 				window.open(url, '_top');
 				}
 				
-			function cursoJogoAnalogico(){
+			function cursoJogosAnalogicos(){
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoJogosAnalogicos.html";
 				window.open(url, '_top');
 			  	}
@@ -141,7 +146,7 @@
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_AnimacaoProcedural.html";
 				window.open(url, '_top');
 			  	}
-		
+			
 			var video = document.getElementById("myVideo");
 			var btn = document.getElementById("myBtn");
 
@@ -155,6 +160,9 @@
 			  }
 			}
 			</script>
-	
+			
+			
+			
 	</body>
 </html>
+
