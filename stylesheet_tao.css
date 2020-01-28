@@ -89,7 +89,7 @@ video {
 	
 	 width: 98vw;
   height:30vw;
-	 max-height:15vw;
+	
 	border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
     border-style: outset; /* estilos de borda */
     border-color: #000; /* uma cor de borda para cada lado */
