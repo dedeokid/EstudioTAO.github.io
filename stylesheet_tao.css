@@ -86,9 +86,7 @@ video {
 
 .logo {
 	font-family: 'Share Tech Mono', serif;
-	
-	max-height:calc(3% +1vw);
-     width: 30%;
+	 width: 30%;
   max-width:30vw;
   height: auto;
 	border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
