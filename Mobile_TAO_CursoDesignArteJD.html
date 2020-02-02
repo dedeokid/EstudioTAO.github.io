@@ -67,10 +67,9 @@
 			<div class="dropdown">
 			<a href="javascript:void(0)" class="dropbtn">Dinâmicas Sistêmicas</a>
 				<div class="dropdown-content">
-				  <a href="#">RPG para para Empresas</a>
-				  <a href="#">RPG didático para Jovens estudantes</a>
-				  <a href="#">RPG como ferramenta didática para Professores</a>
-				  <a href="#">RPG lúdico para Crianças</a>
+				  <a href="#" onclick="cursoRPGEmpresas()">RPG da para Empresas</a>
+				  <a href="#">RPG para Professores</a>
+				  <a href="#">Sessão de RPG lúdico para Crianças</a>
 				</div>
 			</div>
 			
@@ -101,16 +100,16 @@ Como se administra a integração de mundos tão diferentes? Em resumo, como se 
 		<div class="w3-content w3-display-container" align="center" style="max-width:90vw">
 		<!-- Imagens dos slides com elementos dentro-->  
 			
-			<img class="mySlides w3-animate-left " src="ArteDesignJD/Crypta.jpg" style="width:75vw;max-height:80vw;" ><!-- Entra pela esquerda--> 
-			<img class="mySlides w3-animate-rigth " src="ArteDesignJD/PPVelaPorao03.jpg"  style="width:75vw;max-height:80vw;" >  <!-- Limita tamanho responsivo da imagem-->
-			<img class="mySlides w3-animate-rigth " src="ArteDesignJD/TDMApaGameplay.png" style="width:75vw;max-height:80vw;" ><!-- Entra pela direita--> 
-			<img class="mySlides w3-animate-top w3-border w3-padding" src="ArteDesignJD/Predio.png" style="width:75vw;max-height:80vw;" >  <!-- Bordas na imagem-->  
-			<img class="mySlides w3-animate-rigth " src="ArteDesignJD/CarregandoTremDeDoido.jpg"  style="width:75vw;max-height:80vw;" >  <!-- Limita tamanho responsivo da imagem--> 
-			<img class="mySlides w3-animate-rigth " src="ArteDesignJD/cachorroloucoepacientegenérico.jpg" style="width:75vw;max-height:80vw;" ><!-- Entra pela direita--> 
-			<img class="mySlides w3-animate-top w3-border w3-padding" src="ArteDesignJD/loucadamantaevelhoparalisado.jpg" style="width:75vw;max-height:80vw;" >  <!-- Bordas na imagem-->  
-			<img class="mySlides w3-animate-bottom " src="ArteDesignJD/PerPrincPreviewFrente.jpg"  style="width:75vw;max-height:80vw;" >  <!-- Limita tamanho responsivo da imagem-->  
-			<img class="mySlides w3-animate-zoom w3-round" src="ArteDesignJD/fig_tutorial_09.png"  style="width:75vw;max-height:80vw;" ><!-- Entra em zoom, beirada redonda e transparencia--> 
-				<img class="mySlides w3-animate-left " src="ArteDesignJD/Crypta.jpg" style="width:75vw;max-height:80vw; ><!-- Entra pela esquerda--> 
+			<img class="mySlides w3-animate-left " src="ArteDesignJD/Crypta.jpg"style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" ><!-- Entra pela esquerda--> 
+			<img class="mySlides w3-animate-rigth " src="ArteDesignJD/PPVelaPorao03.jpg" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;">  <!-- Limita tamanho responsivo da imagem-->
+			<img class="mySlides w3-animate-rigth " src="ArteDesignJD/TDMApaGameplay.png" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;"><!-- Entra pela direita--> 
+			<img class="mySlides w3-animate-top w3-border w3-padding" src="ArteDesignJD/Predio.png" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" >  <!-- Bordas na imagem-->  
+			<img class="mySlides w3-animate-rigth " src="ArteDesignJD/CarregandoTremDeDoido.jpg"  style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" >  <!-- Limita tamanho responsivo da imagem--> 
+			<img class="mySlides w3-animate-rigth " src="ArteDesignJD/cachorroloucoepacientegenérico.jpg" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" ><!-- Entra pela direita--> 
+			<img class="mySlides w3-animate-top w3-border w3-padding" src="ArteDesignJD/loucadamantaevelhoparalisado.jpg" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" >  <!-- Bordas na imagem-->  
+			<img class="mySlides w3-animate-bottom " src="ArteDesignJD/PerPrincPreviewFrente.jpg"  style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;">  <!-- Limita tamanho responsivo da imagem-->  
+			<img class="mySlides w3-animate-zoom w3-round" src="ArteDesignJD/fig_tutorial_09.png" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" ><!-- Entra em zoom, beirada redonda e transparencia--> 
+				<img class="mySlides w3-animate-left " src="ArteDesignJD/Crypta.jpg" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;"><!-- Entra pela esquerda--> 
 				
 			
 		 <!-- Botões do Slideshow--> 
@@ -175,6 +174,10 @@ Como se administra a integração de mundos tão diferentes? Em resumo, como se 
 			  	}
 			function cursoProcedural(){
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_AnimacaoProcedural.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGEmpresas(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Empresas.html";
 				window.open(url, '_top');
 			  	}
 		

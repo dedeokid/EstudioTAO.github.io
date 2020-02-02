@@ -17,16 +17,12 @@
 </style>
 		
 </head>
-	
 	<body>
-		
 	<div class="logo">	
 	<p class="glow" style="font-size:calc(200% + 1vw)"><I><b>Estúdio T.A.O</b></I></p>
 	<p class="glow">de Artes, Tecnologias e Ofícios</p>
 	  <p class="glow">programação filosófica, metodologia sistêmica, arte transcedental, ancestralidade e tecnologia</p>
-		<!--<img src="Imagens/SomenteTAO.png" alt="TAO" style="width:100%; z-index: -1;">-->
-		
-	</video><button id="myBtn" onclick="backVideo()">Pause</button>
+		</video><button id="myBtn" onclick="backVideo()">Pause</button>
 	<!-- Background Vídeo -->
 	<div class="video-container">	
 		<video autoplay muted loop id="myVideo">
@@ -36,9 +32,6 @@
 	</div>	
 	<!--finaliza Vídeo-->
 	</div>
-	
-<hr>
-
 	<!-- Top Navigation Menu -->
 	<div class="topnav">
 	<a href="#principal" class="active" onclick="principal()">Principal</a>
@@ -49,8 +42,7 @@
 				<div class="dropdown-content">
 				  <a href="#" onclick="jogoMobileSR71()">SR71-Blackbird- The Game</a>
 				  <a href="#" onclick="aulasAnimacaoCP()">Apoio para professores de Arte, Mídias e Tecnologia!</a>
-				
-					
+									
 				</div>
 			</div>
 			
@@ -69,10 +61,9 @@
 			<div class="dropdown">
 			<a href="javascript:void(0)" class="dropbtn">Dinâmicas Sistêmicas</a>
 				<div class="dropdown-content">
-				  <a href="#">RPG para para Empresas</a>
-				  <a href="#">RPG didático para Jovens estudantes</a>
-				  <a href="#">RPG como ferramenta didática para Professores</a>
-				  <a href="#">RPG lúdico para Crianças</a>
+				  <a href="#" onclick="cursoRPGEmpresas()">RPG da para Empresas</a>
+				  <a href="#">RPG para Professores</a>
+				  <a href="#">Sessão de RPG lúdico para Crianças</a>
 				</div>
 			</div>
 			
@@ -144,6 +135,10 @@
 			  	}
 			function cursoProcedural(){
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_AnimacaoProcedural.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGEmpresas(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Empresas.html";
 				window.open(url, '_top');
 			  	}
 			

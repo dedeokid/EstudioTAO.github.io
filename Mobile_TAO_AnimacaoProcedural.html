@@ -69,10 +69,9 @@
 			<div class="dropdown">
 			<a href="javascript:void(0)" class="dropbtn">Dinâmicas Sistêmicas</a>
 				<div class="dropdown-content">
-				  <a href="#">Dinâmicas para Empresas através do RPG</a>
-				  <a href="#">RPG didático para Jovens estudantes</a>
-				  <a href="#">RPG como ferramenta didática para Professores</a>
-				  <a href="#">RPG lúdico para Crianças</a>
+				  <a href="#" onclick="cursoRPGEmpresas()">RPG da para Empresas</a>
+				  <a href="#">RPG para Professores</a>
+				  <a href="#">Sessão de RPG lúdico para Crianças</a>
 				</div>
 			</div>
 			
@@ -92,19 +91,19 @@
 		<p class="efeitoleitura" style="text-align:justify;text-decoration: underline;"><b>Desenho Procedural Alquímico</b></p>
 		<p class="efeitoleitura">Desenhos Procedurais são aqueles criados através de algum dispositivo com algum nível de automatização</p>
 		<p class="efeitoleitura">No curso vemos:<br><br>1-História das Mídias, da idade da pedra à contemporâneidade<br>2-Introdução ao desenho procedural em Processing<br>3-Prática com cada aluno criando seu próprio Desenho Procedural!<br></p>
-		<br>
+		<br><img src="Imagens/Imagem_Curso_AlquimiaDigital.png" alt="TAO" style="width:100%; z-index: -1;">
 		<p class="efeitoleitura" style="border-width: 0.2vw;border-style: outset;border-color: white;border-radius:12px;">Tempo de duração: 5 aulas de 4 horas cada uma totalizando 20 horas<br>Converse com o Estúdio TAO sobre os custos e as condições de realização, vamos até sua Escola ou Empresa</p>
 		
 		<p class="w3-center">Exemplos</p>
 		<!-- Cria Slideshow-->  
-		<div class="w3-content w3-display-container" align="center" style="max-width:90vw">
+		<div class="w3-content w3-display-container" align="center">
+		
 		<!-- Imagens dos slides com elementos dentro-->  
-			<canvas class="mySlides w3-animate-left " data-processing-sources="ProcessingTAO/Sun/Sun.pde"></canvas>
-			<canvas class="mySlides w3-animate-rigth " data-processing-sources="ProcessingTAO/Divine9x13/Divine9x13.pde"></canvas>  <!-- Limita tamanho responsivo da imagem--> 
-			<canvas class="mySlides w3-animate-rigth " data-processing-sources="ProcessingTAO/SolarSystemMagica/SolarSystemMagica.pde"></canvas><!-- Entra pela direita--> 
-			<canvas class="mySlides w3-animate-top w3-border w3-padding" data-processing-sources="ProcessingTAO/EletricYingYang/EletricYingYang.pde"></canvas>  <!-- Bordas na imagem-->  
-			<canvas class="mySlides w3-animate-bottom " data-processing-sources="ProcessingTAO/CosmicEgg/CosmicEgg.pde"></canvas> <!-- Limita tamanho responsivo da imagem-->  
-			<canvas class="mySlides w3-animate-zoom w3-round w3-opacity-min" data-processing-sources="ProcessingTAO/Agua/Agua.pde"></canvas><!-- Entra em zoom, beirada redonda e transparencia--> 
+			<canvas class="mySlides w3-animate-left " style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" data-processing-sources="ProcessingTAO/Sun/Sun.pde" ></canvas>
+			<canvas class="mySlides w3-animate-rigth " style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" data-processing-sources="ProcessingTAO/Divine9x13/Divine9x13.pde"></canvas>  <!-- Limita tamanho responsivo da imagem--> 
+			
+			<canvas class="mySlides w3-animate-top w3-border w3-padding" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" data-processing-sources="ProcessingTAO/EletricYingYang/EletricYingYang.pde"></canvas>  <!-- Bordas na imagem-->  
+			<canvas class="mySlides w3-animate-bottom " style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" data-processing-sources="ProcessingTAO/CosmicEgg/CosmicEgg.pde"></canvas> <!-- Limita tamanho responsivo da imagem-->  
 				
 			 
 		 <!-- Botões do Slideshow--> 
@@ -116,8 +115,7 @@
 			  <button class="w3-button demo" onclick="currentDiv(2)">2</button>
 			  <button class="w3-button demo" onclick="currentDiv(3)">3</button>
 			  <button class="w3-button demo" onclick="currentDiv(4)">4</button>
-			  <button class="w3-button demo" onclick="currentDiv(5)">5</button>
-			  <button class="w3-button demo" onclick="currentDiv(6)">6</button> 
+			  
 			</div>
 	</div>
 	<p class="efeitoleitura"><I>“Mas reconhecer o jogo é, forçosamente, reconhecer o espírito, pois o jogo, seja qual for sua essência, não é material. Ultrapassa, mesmo no mundo animal, os limites da realidade física. Do ponto de vista da concepção determinista de um mundo regido pela ação de forças cegas, o jogo seria inteiramente supérfluo. Só se torna possível, pensável e compreensível quando a presença do espírito destrói o determinismo absoluto do cosmos. A própria existência do jogo é uma confirmação permanente da natureza supralógica da situação humana. Se os animais são capazes de brincar, é porque são alguma coisa mais do que simples seres mecânicos. Se brincamos e jogamos, e temos consciência disso, é porque somos mais do que simples seres racionais, pois o jogo é irracional.”<br>HUIZINGA,Johan. Homo Ludens<I></p>
@@ -165,6 +163,10 @@
 			  	}
 			function cursoProcedural(){
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_AnimacaoProcedural.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGEmpresas(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Empresas.html";
 				window.open(url, '_top');
 			  	}
 		
