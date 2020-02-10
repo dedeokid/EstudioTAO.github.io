@@ -69,8 +69,8 @@
 			<a href="javascript:void(0)" class="dropbtn">Dinâmicas Sistêmicas</a>
 				<div class="dropdown-content">
 				  <a href="#" onclick="cursoRPGEmpresas()">RPG da para Empresas</a>
-				  <a href="#">RPG para Professores</a>
-				  <a href="#">Sessão de RPG lúdico para Crianças</a>
+				  <a href="#" onclick="cursoRPGDidatico()">RPG Didático</a>
+				  <a href="#" onclick="cursoRPGCriancas()">Sessão de RPG lúdico para Crianças</a>
 				</div>
 			</div>
 			
@@ -170,6 +170,14 @@
 			  	}
 			function cursoRPGEmpresas(){
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Empresas.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGDidatico(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Academico.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGCriancas(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Criancas.html";
 				window.open(url, '_top');
 			  	}
 		
