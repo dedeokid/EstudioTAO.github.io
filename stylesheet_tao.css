@@ -36,7 +36,11 @@ video {
   height: auto;
 	display: block;
 	margin: 0 auto;
-	
+	 padding:0.6vw 0.6vw 0.6vw 0.6vw;
+			 border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
+			border-style: outset; /* estilos de borda */
+			border-color: gold; /* uma cor de borda para cada lado */
+			border-radius: calc(0.1vw+1%); 
 	
 }
 .video-container {
@@ -52,7 +56,7 @@ video {
 }
 .efeitoleitura
         {
-			 color: gray;
+			color: gray;
             opacity:1;
 			text-align:justify;
 			padding:4vw 4vw 4vw 4vw;
@@ -64,13 +68,13 @@ video {
 			webkit-transition-duration: 0.8s;
 			transition-duration: 0.8s;
 			font-weight: lighter;
+			 margin: 2vw auto;
 			 background-image: linear-gradient(+45deg, rgba(55,255,250,0.3), rgba(190,120,50,0.3), rgba(25,15,15,0.3));
-			 padding:2vw 2vw 2vw 2vw;
-			 border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
+			 padding:calc(2vw+1%);
+			 border-width:calc(0.6vw+1%); /* aqui, cada lado possui uma borda de largura diferente */
 			border-style: outset; /* estilos de borda */
 			border-color: gold; /* uma cor de borda para cada lado */
-			border-radius: calc(0.1vw+1%); 	
-			
+			border-radius: 1vw; 				
 					
   animation:colorchgContainer 6s infinite;
   animation-timing-function: ease-in-out;
@@ -82,13 +86,13 @@ video {
    z-index:1;
   
   position: relative;
-  top: calc(120px + 20vw);
+  top: calc(110px + 20vw);
   max-width: 98%;
   max-height:98%;
   margin: 1vw auto;
   background-image: linear-gradient(+45deg, rgba(155,255,250,0.3), rgba(190,120,150,0.3), rgba(255,150,150,0.3));
   	
-	border-width: 0.6vw;; /* aqui, cada lado possui uma borda de largura diferente */
+	border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
     border-style: outset; /* estilos de borda */
     border-color: white; /* uma cor de borda para cada lado */
 	border-radius: 0.6vw; 	
@@ -107,11 +111,11 @@ video {
 	
 	font-family: 'Share Tech Mono', serif;
 	
-	width:98%;
+	width:99.8%;
 	
 	height:calc(5% +1vw);
     
-	border-width: 0.1vw;; /* aqui, cada lado possui uma borda de largura diferente */
+	border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
     border-style: outset; /* estilos de borda */
     border-color: white; /* uma cor de borda para cada lado */
 	border-radius:0.1vw;		
@@ -140,11 +144,11 @@ video {
     
   z-index:4;
   position: fixed;
-   padding: 1vw;
-  left: 1vw;
+   padding: 2vw;
+  left: 0.1vw;
   top: 0.1vw;
   display: block;
-margin: 1vw auto;
+margin: 0.1vw auto;
 font-size:calc(50% + 1vw)
 
 
@@ -322,11 +326,6 @@ img{
 	margin-left: auto;
 	margin-right: auto;
   
-  	border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
-    border-style: outset; /* estilos de borda */
-    border-color: white; /* uma cor de borda para cada lado */
-	border-radius: 0.2vw; 	
-	
 }
 #myVideo {
   right:0;
