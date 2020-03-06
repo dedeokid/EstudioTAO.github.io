@@ -1,6 +1,7 @@
 <!DOCTYPE html><!-- Declaramos que iremos usar o HTML 5 -->
 <html lang="pt-br">	<!-- Inicia ciclo de Programação HTML com idioma da página em PT-BR-->
 	<head>			<!-- Inicia a parte das configurações -->
+		
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!-- link para referencias de configuração CSS de páginas online-->
 		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
 		<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
@@ -8,17 +9,14 @@
 		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 		<meta charset="utf-8"><!--Este elemento define o tipo da codificação dos caracteres SEMPRE BOM COLOCAR-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Enxerga o tamanho da tela do dispositivo-->
-        			
-		<script type="text/javascript" src = "Processing.js"></script>		
 		
-		<title> 
+        <title> 
             Estúdio TAO
         </title> 
 <style>
-
 </style>
+		
 </head>
-	
 	<body>
 	<div class="logo">	
 	<p class="glow" style="font-size:calc(150% + 1vw)"><I><b>Estúdio T.A.O</b></I>
@@ -33,9 +31,6 @@
 	</div>	
 	<!--finaliza Vídeo-->
 	</div>
-	
-	
-<hr>
 	<!-- Top Navigation Menu -->
 	<div class="topnav">
 	<a href="#principal" class="active" onclick="principal()">Principal</a>
@@ -46,8 +41,7 @@
 				<div class="dropdown-content">
 				  <a href="#" onclick="jogoMobileSR71()">SR71-Blackbird- The Game</a>
 				  <a href="#" onclick="aulasAnimacaoCP()">Apoio para professores de Arte, Mídias e Tecnologia!</a>
-				
-					
+									
 				</div>
 			</div>
 			
@@ -59,7 +53,7 @@
 				  <a href="#" onclick="cursoDesignArteJD()">Design e Arte para Jogos Digitais</a>
 				  <a href="#" onclick="cursoProgramJD()">Programação para Jogos Digitais</a>
 				  <a href="#" onclick="cursoProcedural()">A Alquimia Digital das Animações Procedurais</a>
-				  <a href="#" onclick="cursoWEB()">Criação, Crítica e Desenvolvimento para WEB</a>
+				  <a href="#" onclick="cursoWEB()">Criação para WEB em HTML5</a>
 				</div>
 			</div>
 			
@@ -79,57 +73,29 @@
 	  <div class="triangle-down"></div>
 		<i class="fa fa-bars"></i>
 	  </a>
-		<!-- End Navigation Menu --> 
+		<!-- End Navigation Menu -->  
 	</div>
 	
 <!-- Simulate a smartphone / tablet -->
-	<div class="mobile-container">		
-		
-		<p class="efeitoleitura" style="text-align:justify;text-decoration: underline;"><b>Desenho Procedural Alquímico</b></p>
-		<p class="efeitoleitura">Desenhos Procedurais são aqueles criados através de algum dispositivo com algum nível de automatização</p>
-		<p class="efeitoleitura">No curso vemos:<br><br>1-História das Mídias, da idade da pedra à contemporâneidade<br>2-Introdução ao desenho procedural em Processing<br>3-Prática com cada aluno criando seu próprio Desenho Procedural!<br></p>
-		<br><img src="Imagens/Imagem_Curso_AlquimiaDigital.png" alt="TAO" style="width:100%; z-index: -1;">
-		<p class="efeitoleitura" style="border-width: 0.2vw;border-style: outset;border-color: white;border-radius:12px;">Tempo de duração: 5 aulas de 4 horas cada uma totalizando 20 horas<br>Converse com o Estúdio TAO sobre os custos e as condições de realização, vamos até sua Escola ou Empresa</p>
-		
-		<p class="w3-center">Exemplos</p>
-		<!-- Cria Slideshow-->  
-		<div class="w3-content w3-display-container" align="center">
-		
-		<!-- Imagens dos slides com elementos dentro-->  
-			<canvas class="mySlides w3-animate-left " style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" data-processing-sources="ProcessingTAO/Sun/Sun.pde" ></canvas>
-			<canvas class="mySlides w3-animate-rigth " style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" data-processing-sources="ProcessingTAO/Divine9x13/Divine9x13.pde"></canvas>  <!-- Limita tamanho responsivo da imagem--> 
-			
-			<canvas class="mySlides w3-animate-top w3-border w3-padding" style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" data-processing-sources="ProcessingTAO/EletricYingYang/EletricYingYang.pde"></canvas>  <!-- Bordas na imagem-->  
-			<canvas class="mySlides w3-animate-bottom " style="width:50%;height:50%;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" data-processing-sources="ProcessingTAO/CosmicEgg/CosmicEgg.pde"></canvas> <!-- Limita tamanho responsivo da imagem-->  
-				
-			 
-		 <!-- Botões do Slideshow--> 
-			<div class="w3-center">
-			  <button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
-			  <button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
-
-			  <button class="w3-button demo" onclick="currentDiv(1)">1</button>
-			  <button class="w3-button demo" onclick="currentDiv(2)">2</button>
-			  <button class="w3-button demo" onclick="currentDiv(3)">3</button>
-			  <button class="w3-button demo" onclick="currentDiv(4)">4</button>
-			  
-			</div>
-	</div>
-	<p class="efeitoleitura"><I>“Mas reconhecer o jogo é, forçosamente, reconhecer o espírito, pois o jogo, seja qual for sua essência, não é material. Ultrapassa, mesmo no mundo animal, os limites da realidade física. Do ponto de vista da concepção determinista de um mundo regido pela ação de forças cegas, o jogo seria inteiramente supérfluo. Só se torna possível, pensável e compreensível quando a presença do espírito destrói o determinismo absoluto do cosmos. A própria existência do jogo é uma confirmação permanente da natureza supralógica da situação humana. Se os animais são capazes de brincar, é porque são alguma coisa mais do que simples seres mecânicos. Se brincamos e jogamos, e temos consciência disso, é porque somos mais do que simples seres racionais, pois o jogo é irracional.”<br>HUIZINGA,Johan. Homo Ludens<I></p>
-	</div>
-	<!-- End smartphone / tablet look -->
+	<div class="mobile-container">
+	<p class="efeitoleitura"><img src="Imagens/Rococo.png" style="width:15%;float:left;"><I><U><strong>Criação em WEB</strong></U></I><br> O curso ensina a criar sites em HTML e CSS com os seguintes assuntos:<hr></p>
+	<p class="efeitoleitura"><img src="Imagens/Rococo.png" style="width:15%;float:left;"><b>1-</b> Origens e Rumos para a World Wide WEB. <img src="WEB/RobertCaillou.png"  style="width:25%;"><br><b>2-</b> Planejando o seu site. <img src="WEB/Linking.gif"  style="width:30%;"><br> <b>3- </b> Construindo o seu Site.<img src="WEB/html5.jfif"  style="width:30%;"><b>2-</b> Formatando o seu site. <img src="WEB/css.png"  style="width:15%;"><br>  <b>4-</b> Hospedando o seu Site. <img src="WEB/WEB01.gif"  style="width:30%;"></p>
 	
+	
+	<hr>
+	<div class="efeitoleitura" style="text-align:right">
+	<p><I>"Na busca do conhecimento, todos os dias algo é adquirido.<br>Na busca do Tao, todos os di as algo é deixado para trás."<br>
+	Tao Te King</I></p>
+	</div>
+		<hr>
+		<p class="efeitoleitura">Veja o que te inspira na seta de menu, acima à direita.</p>	  
+		<hr>
+		
+	<!-- End smartphone / tablet look -->
+	</div>
 
 			<script>
 			function myFunction() {
-			  var x = document.getElementById("myLinks");
-			  if (x.style.display === "block") {
-				x.style.display = "none";
-			  } else {
-				x.style.display = "block";
-			  }
-			 }
-		function myFunction() {
 			  var x = document.getElementById("myLinks");
 			  if (x.style.display === "block") {
 				x.style.display = "none";
@@ -190,6 +156,7 @@
 				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_SR71.html";
 				window.open(url, '_top');
 			  	}
+				
 			var video = document.getElementById("myVideo");
 			var btn = document.getElementById("myBtn");
 
@@ -202,36 +169,10 @@
 				btn.innerHTML = "Play";
 			  }
 			}
-			
-			//script de Java para associar a imagem ao slideIndex
-		var slideIndex = 1;
-		showDivs(slideIndex);
-
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
-
-		function currentDiv(n) {
-		  showDivs(slideIndex = n);
-		}
-
-		function showDivs(n) {
-		  var i;
-		  var x = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("demo");
-		  if (n > x.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-			x[i].style.display = "none";  
-		  }
-		  for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" w3-red", "");
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		  dots[slideIndex-1].className += " w3-red";
-		  
-		}
 			</script>
-	
+			
+			
+			
 	</body>
 </html>
+
