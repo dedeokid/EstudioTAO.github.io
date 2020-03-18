@@ -367,7 +367,7 @@ canvas{
 }
 .glow {
   
-  color: black;
+  color: white;
   
   -webkit-animation: glow 3s ease-in-out infinite alternate;
   -moz-animation: glow 3s ease-in-out infinite alternate;
