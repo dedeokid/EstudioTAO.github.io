@@ -7,8 +7,7 @@ body {
             font-family: 'Mansalva', cursive;
             transition:all 4s ease;
 		
-	/* Location of the image */
-  background-image: url(Imagens/SomenteTAO.png);
+	
   
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -33,11 +32,12 @@ video {
   max-width:20vw;
   max-height: 20vw;
 	display: block;
+	
 	margin: 0 auto;
 	 padding:0.6vw 0.6vw 0.6vw 0.6vw;
-			 border-width: 0.2vw;; /* aqui, cada lado possui uma borda de largura diferente */
+			 border-width: 0.2vw; /* aqui, cada lado possui uma borda de largura diferente */
 			border-style: outset; /* estilos de borda */
-			border-color: gold; /* uma cor de borda para cada lado */
+			border-color: white; /* uma cor de borda para cada lado */
 			border-radius: calc(0.1vw+1%); 
 	
 }
@@ -45,8 +45,8 @@ video {
 	 z-index: -1; /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
 	position: absolute;
    padding: 1vw;
-  left: 20vw;
-  top: 2vw;
+  left: 40vw;
+  top: 1vw;
   margin: 0 auto;
   color: white;
   border-radius: 2vw;  
@@ -68,10 +68,10 @@ video {
 			 margin: 1vw auto;
 			 background-image: linear-gradient(+45deg, rgba(55,255,250,0.3), rgba(190,120,50,0.3), rgba(25,15,15,0.3));
 			 padding:1vw;
-			 border-width:0.6vw; /* aqui, cada lado possui uma borda de largura diferente */
+			 border-width:0.2vw; /* aqui, cada lado possui uma borda de largura diferente */
 			border-style: outset; /* estilos de borda */
 			border-color: gold; /* uma cor de borda para cada lado */
-			border-radius: 1vw; 				
+			border-radius: 0.2vw; 				
 					
   animation:colorchgContainer 6s infinite;
   animation-timing-function: ease-in-out;
@@ -104,7 +104,14 @@ video {
   animation-timing-function: ease-in-out;
   animation-duration: 32s;
 }
-
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
 .logo {
 
   color:green;
@@ -124,8 +131,7 @@ video {
 /* Location of the image */
 
   background-image: url(Imagens/TAU.png);
-
-  background-image: url(Imagens/TAU.png);  
+ 
   /* Background image is centered vertically and horizontally at all times */
   background-position: top right;
 
@@ -360,7 +366,7 @@ canvas{
    height:50%;
    max-width:90%;
    max-height:90%;
-    border:solid black 3vw;
+    border:solid black 1vw;
 	display: block;
 	margin: 2vw auto;
 	image-rendering: -webkit-optimize-contrast !important;
