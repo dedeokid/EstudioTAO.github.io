@@ -328,7 +328,7 @@ transition-duration: 1s;
 }
 img{
 	border-width: 0.1vw; /* aqui, cada lado possui uma borda de largura diferente */
-    border-style: outset; /* estilos de borda */
+    border-style: noone; /* estilos de borda */
     border-color: gold; /* uma cor de borda para cada lado */
 	border-radius:0.1vw;		
 
