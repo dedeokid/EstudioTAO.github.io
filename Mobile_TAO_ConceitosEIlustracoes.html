@@ -1,0 +1,266 @@
+<!DOCTYPE html><!-- Declaramos que iremos usar o HTML 5 -->
+<html lang="pt-br">	<!-- Inicia ciclo de Programação HTML com idioma da página em PT-BR-->
+	<head>			<!-- Inicia a parte das configurações -->
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!-- link para referencias de configuração CSS de páginas online-->
+		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
+		<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+		<meta charset="utf-8"><!--Este elemento define o tipo da codificação dos caracteres SEMPRE BOM COLOCAR-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Enxerga o tamanho da tela do dispositivo-->
+		
+        <title> 
+            Estúdio TAO
+        </title> 
+<style>
+</style>
+		
+</head>
+	<body>
+	<!-- Logo iframe -->	
+	<iframe src="iframe_logo.html" width="100%" height="100%"frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+		<p>Your browser does not support iframes.</p>
+	</iframe>
+	<!-- Top Navigation Menu -->
+	<div class="topnav">
+	<a href="#principal" class="active" onclick="principal()">Principal</a>
+		<div id="myLinks">
+							
+			<div class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Criação e Desenvolvimento</a>
+				<div class="dropdown-content">
+				  <a href="#" onclick="jogoMobileSR71()">SR71-Blackbird- The Game</a>
+				   <a href="#" onclick="jogoCuteSpooky()">Cute & Spooky, mobile game para Android</a>
+				  <a href="#" onclick="aulasAnimacaoCP()">Apoio para professores de Arte, Mídias e Tecnologia!</a>
+									
+				</div>
+			</div>
+			
+			<div class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Cursos e Oficinas</a>
+				<div class="dropdown-content">
+				  <a href="#" onclick="cursoJogosAnalogicos()">Criação e Desenvolvimento de Jogos Analógicos</a>
+				  <a href="#" onclick="oficinaVideoGameDePapel()">Oficina Video Game de Papel</a>
+				  <a href="#" onclick="cursoDesignArteJD()">Design e Arte para Jogos Digitais</a>
+				  <a href="#" onclick="cursoProgramJD()">Programação para Jogos Digitais</a>
+				  <a href="#" onclick="cursoProcedural()">A Alquimia Digital das Animações Procedurais</a>
+				  <a href="#" onclick="cursoWEB()">Criação, Crítica e Desenvolvimento para WEB</a>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Dinâmicas Sistêmicas</a>
+				<div class="dropdown-content">
+				  <a href="#" onclick="cursoRPGEmpresas()">RPG da para Empresas</a>
+				  <a href="#" onclick="cursoRPGDidatico()">RPG Didático</a>
+				  <a href="#" onclick="cursoRPGCriancas()">Sessão de RPG lúdico para Crianças</a>
+				</div>
+			</div>
+			
+			<a href="#contato" onclick="contato()">Contate-nos</a>
+						
+		</div>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	  <div class="triangle-down"></div>
+		<i class="fa fa-bars"></i>
+	  </a>
+		<!-- End Navigation Menu --> 
+	</div>
+	
+<!-- Simulate a smartphone / tablet -->
+	<div class="mobile-container">
+	<p class="efeitoleitura"><img src="Imagens/Rococo.png" style="width:15%;float:left;"><I><U><strong>O que é um conceito de arte?, ou, em inglês, um "concept art"?</strong></U></I><BR> É um desenho, ou uma pintura capaz de comunicar alguma ideia.<br> Criamos obras de Arte em <b>Desenho</b><img src="Imagens/facevelho.jpg"  style="height:27vw;"> e <b>Desenho Procedural.</b><img src="Imagens/YngYangEletric.png"  style="height:27vw;"> <br><b>Pintura Tradicional</b> e <b>Ilustração Digital</b><img src="Imagens/Bugio.png"  style="height:27vw;"> .<br> <b>Fotografia</b>, <b>Cinema</b>, <b>Animação</b> e <b>Computação Gráfica</b>. <br> <b>Jogos Analógicos</b><img src="JogosAnalogicos/QualMoveQuanto.JPG"  style="height:27vw;"> e <b>Jogos Digitais</b> <img src="ArteDesignJD/screenshot_7.png"  style="height:27vw;">, <b>WEB</b> e <b>Audio Visual Interativo</b>.<br></p>
+	<div class="efeitoleitura" style="text-align:right">
+	<p><I>A Imagem ultrapassa a existência?</I></p>
+	<p>Um bom concept Art comunica para o seu público de forma visceral, evocando memórias e sentimentos!</p>
+	</div>
+		
+		<!-- Cria Slideshow-->  
+		<div class="w3-content w3-display-container" align="center" >
+		<!-- Imagens dos slides com elementos dentro-->  
+			
+			<div class="mySlides w3-animate-left " >
+				<p class="w3-center">"Concept Art" ganhador do Concurso Jogos Br 2016 na categoria Demo Jogável, em caneta esferográfica e lápis de cor.</p>
+				<img src="ArteDesignJD/Crypta.jpg"style="max-width:auto;max-height:50vw;border:solid black 1vw;display: block;	margin: 1vw auto;" ><!-- Entra pela esquerda--> 
+			</div>
+			
+			<div class="mySlides w3-animate-right " >
+				<p class="w3-center">"Concept Art" anterior realizado no Jogo Digital 3D, "Trem de Doido"</p>
+				<img src="ArteDesignJD/PPVelaPorao03.jpg" style="max-width:auto;max-height:50vw;border:solid black 1vw;display: block;	margin: 1vw auto;">  <!-- Limita tamanho responsivo da imagem-->
+			</div>
+			
+			<div class="mySlides w3-animate-bottom " >
+				<p class="w3-center">"Gameplay Concept" realizado no Jogo Digital "Trem de Doido"</p>
+				<img src="ArteDesignJD/TDMApaGameplay.png" style="max-width:auto;max-height:50vw;border:solid black 1vw;display: block;	margin: 1vw auto;"><!-- Entra pela direita--> 
+			</div>
+			
+			<div class="mySlides w3-animate-left " >
+				<p class="w3-center">"Tatoo Concept" de "Equilíbrio Dracônico"</p>
+				<img src="Imagens/Dragoes.png" style="max-width:auto;max-height:50vw;border:solid black 1vw;display: block;	margin: 1vw auto;" >  <!-- Bordas na imagem-->  
+			</div>
+			
+			<div class="mySlides w3-animate-bottom " >
+				<p class="w3-center">"Concept Art" de "O Bárbaro do Gelo" em Digital Painting e 3D modeling"</p>
+				<img src="Imagens/BarbaroDoGelo.bmp"  style="max-width:auto;max-height:50vw;max-width:90%;max-height:90%;border:solid black 1vw;display: block;	margin: 1vw auto;" >  <!-- Limita tamanho responsivo da imagem--> 
+			</div>
+			
+			<div class="mySlides w3-animate-left " >
+				<p class="w3-center">"Characther Concept" de "Trem de Doido", em nankin e lápis de cor.</p>
+				<img src="ArteDesignJD/cachorroloucoepacientegenérico.jpg" style="max-width:auto;max-height:50vw;;border:solid black 1vw;display: block;	margin: 1vw auto;" ><!-- Entra pela direita--> 
+			</div>
+			
+			<div class="mySlides w3-animate-bottom " >
+				<p class="w3-center">"Characther Concept" de "Trem de Doido", em nankin e lápis de cor.</p>
+				<img src="ArteDesignJD/loucadamantaevelhoparalisado.jpg" style="max-width:auto;max-height:50vw;border:solid black 1vw;display: block;	margin: 1vw auto;" >  <!-- Bordas na imagem-->  
+			</div>
+			
+			<div class="mySlides w3-animate-bottom " >
+				<p class="w3-center">"Characther Concept" de "Demônio Abismal", em nankin e lápis de cor.</p>
+				<img src="Imagens/Demonio.jpg"  style="max-width:auto;max-height:50vw;border:solid black 1vw;display: block;	margin: 1vw auto;">  <!-- Limita tamanho responsivo da imagem-->  
+			</div>
+			
+			<div class="mySlides w3-animate-left " >
+				<p class="w3-center">"Voodoo King" em nankin.</p>
+				<img src="Imagens/VoodoKing.jpg" style="max-width:auto;max-height:50vw;;border:solid black 1vw;display: block;	margin: 1vw auto;"><!-- Entra pela esquerda--> 
+			</div>
+			
+			
+		 <!-- Botões do Slideshow--> 
+			<div class="w3-center">
+			  <button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
+			  <button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
+
+			  <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+			  <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+			  <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+			  <button class="w3-button demo" onclick="currentDiv(4)">4</button>
+			  <button class="w3-button demo" onclick="currentDiv(5)">5</button>
+			  <button class="w3-button demo" onclick="currentDiv(6)">6</button> 
+			   <button class="w3-button demo" onclick="currentDiv(7)">7</button> 
+			    <button class="w3-button demo" onclick="currentDiv(8)">8</button> 
+				 <button class="w3-button demo" onclick="currentDiv(9)">9</button> 
+				  
+			</div>
+	</div>
+	<hr>
+		<p class="efeitoleitura">Veja o que te inspira na seta de menu, acima a direita.</p>	  
+		<hr>
+	<!-- End smartphone / tablet look -->
+	</div>
+
+			<script>
+			function myFunction() {
+			  var x = document.getElementById("myLinks");
+			  if (x.style.display === "block") {
+				x.style.display = "none";
+			  } else {
+				x.style.display = "block";
+			  }
+			 }
+			  function contato(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+			function oficinaVideoGameDePapel(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+			function principal(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/index.html";
+				window.open(url, '_top');
+				}
+				
+			function cursoJogosAnalogicos(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoJogosAnalogicos.html";
+				window.open(url, '_top');
+			  	}
+			function cursoDesignArteJD(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoDesignArteJD.html";
+				window.open(url, '_top');
+			  	}
+			function cursoProgramJD(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoProgramJD.html";
+				window.open(url, '_top');
+			  	}
+			
+			function cursoProcedural(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_AnimacaoProcedural.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGEmpresas(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Empresas.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGDidatico(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Academico.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGCriancas(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Criancas.html";
+				window.open(url, '_top');
+			  	}
+			function cursoWEB(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_WEB.html";
+				window.open(url, '_top');
+			  	}
+			function cursoVGPapel(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_VG_Papel.html";
+				window.open(url, '_top');
+			  	}
+			function jogoMobileSR71(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_SR71.html";
+				window.open(url, '_top');
+			  	}
+			function jogoCuteSpooky(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CuteSpooky.html";
+				window.open(url, '_top');
+			  	}
+				
+			var video = document.getElementById("myVideo");
+			var btn = document.getElementById("myBtn");
+
+			function backVideo() {
+			  if (video.paused) {
+				video.play();
+				btn.innerHTML = "Pause";
+			  } else {
+				video.pause();
+				btn.innerHTML = "Play";
+			  }
+			}
+				//script de Java para associar a imagem ao slideIndex
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function currentDiv(n) {
+		  showDivs(slideIndex = n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("demo");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" w3-red", "");
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " w3-red";
+		  
+		}
+			</script>
+			
+			
+			
+	</body>
+</html>
+

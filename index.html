@@ -1,0 +1,176 @@
+<!DOCTYPE html><!-- Declaramos que iremos usar o HTML 5 -->
+<html lang="pt-br">	<!-- Inicia ciclo de Programação HTML com idioma da página em PT-BR-->
+	<head>			<!-- Inicia a parte das configurações -->
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!-- link para referencias de configuração CSS de páginas online-->
+		<link rel="stylesheet" type="text/css" href="stylesheet_tao.css" media="screen" />
+		<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+		<meta charset="utf-8"><!--Este elemento define o tipo da codificação dos caracteres SEMPRE BOM COLOCAR-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Enxerga o tamanho da tela do dispositivo-->
+		
+        <title> 
+            Estúdio TAO
+        </title> 
+<style>
+</style>
+		
+</head>
+	<body>
+<!-- Logo iframe -->	
+	<iframe src="iframe_logo.html" width="100%" height="100%"frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+		<p>Your browser does not support iframes.</p>
+	</iframe>
+	
+<!-- Top Navigation Menu -->
+	<div class="topnav" >
+	<a href="#principal" class="active" onclick="principal()">Principal</a>
+		<div id="myLinks">
+							
+			<div class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Criação e Desenvolvimento</a>
+				<div class="dropdown-content">
+				  <a href="#" onclick="jogoMobileSR71()">SR71-Blackbird- The Game</a>
+				   <a href="#" onclick="jogoCuteSpooky()">Cute & Spooky, mobile game para Android</a>
+				  <a href="#" onclick="aulasAnimacaoCP()">Apoio para professores de Arte, Mídias e Tecnologia!</a>
+									
+				</div>
+			</div>
+			
+			<div class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Cursos e Oficinas</a>
+				<div class="dropdown-content">
+				  <a href="#" onclick="cursoJogosAnalogicos()">Criação e Desenvolvimento de Jogos Analógicos</a>
+				  <a href="#" onclick="oficinaVideoGameDePapel()">Oficina Video Game de Papel</a>
+				  <a href="#" onclick="cursoDesignArteJD()">Design e Arte para Jogos Digitais</a>
+				  <a href="#" onclick="cursoProgramJD()">Programação para Jogos Digitais</a>
+				  <a href="#" onclick="cursoProcedural()">A Alquimia Digital das Animações Procedurais</a>
+				  <a href="#" onclick="cursoWEB()">Criação para WEB em HTML5</a>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Dinâmicas Sistêmicas</a>
+				<div class="dropdown-content">
+				  <a href="#" onclick="cursoRPGEmpresas()">RPG da para Empresas</a>
+				  <a href="#" onclick="cursoRPGDidatico()">RPG Didático para Professores</a>
+				  <a href="#" onclick="cursoRPGCriancas()">Sessão de RPG lúdico para Jovens Estudantes</a>
+				</div>
+			</div>
+			
+			<a href="#contato" onclick="contato()">Contate-nos</a>
+						
+		</div>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	  <div class="triangle-down"></div>
+		<i class="fa fa-bars"></i>
+	  </a>
+		<!-- End Navigation Menu -->  
+	</div>
+		
+<!-- Simulate a smartphone / tablet -->
+	<div class="mobile-container">
+	
+	<p class="efeitoleitura"><img src="Imagens/Rococo.png" style="width:15vw;float:left;"><I><b><TT>O Estúdio TAO</TT></b></I> tem como objetivo oferecer serviços em <b><i>Educação</i></b>, <b><i>Criação</i></b> e <b><i>Produção</i></b>  de <I>Audio/Visuais/Interativos</I>, abrangendo as <I>Artes Tradicionais</I> e as <I>Tecnológicas</I>. <br><br> - Somos um <b>Estúdio/Escola</b> <i>itinerante</i> e vamos até sua <b>Casa</b>, <b>Escola</b> ou <b>Empresa</b><img src="Imagens/Kid.jpg" style="height:27vw;"> </b> <br> - Nossos <b>Cursos</b> são <i>inéditos</i> e as <b>Oficinas</b> são super divertidas!<img src="Imagens/KIdRobotics.jpg" style="height:27vw;"> <br> - Nossa meta é a transdisciplinaridade entre as <b>Artes</b>, as <b>Tecnologias</b> e os <b>Ofícios</b>, trazendo o conhecimento <i>Antigo e o Novo</i> de maneira integrada.<img src="Imagens/istockphoto-458133227-612x612.jpg" style="height:27vw;"><br> - Criamos nosso próprio material didático integrando metodologias diversas como: a <I>Filosofia</I> de <b>Aristóteles</b>; as <I>Artes Liberais</I>; a <I>Antroposofia</I> de <b>Rudolf Steiner</b>; e o <I>Construtivismo</I> de <b>Jean Piaget</b>.<img src="Imagens/astrology_discovery.jpg" style="height:27vw;"><br> - Avaliação e acompanhamento consciente, adaptivo e inclusivo.<br>- As dinâmicas do Estúdio TAO são divertidas e promovem <I>conhecimento e espírito de equipe</I><img src="Imagens/Neuron.gif" style="width:27vw;"><br></p>
+	
+	<p class="efeitoleitura"><img src="Imagens/Rococo.png" style="width:15vw;float:left;"><I><U><strong>O que é o TAO?</strong></U></I><br> A palavra chinesa TAO significa, literalmente, <I>" o caminho"<I>.<br> No Taoísmo o caminho do sábio é natural, espontâneo e sem sofrimento.<img src="Imagens/ideograma_tao.jpg"  style="width:27vw;">
+	<I>"Na busca do conhecimento, todos os dias algo é adquirido.<br>Na busca do Tao, todos os di as algo é deixado para trás."<br>
+	Tao Te King</I></p>
+	
+		<hr>
+		<p class="efeitoleitura">Veja o que te inspira na seta de menu, acima à direita.</p>	  
+		<hr>
+		<p class="efeitoleitura"><img src="Imagens/Rococo.png" style="width:15vw;float:left;">Quem sou eu? <br><img src="Imagens/MAPC_Foto.jpg" style="width:10vw;"><br><I>Dr. Prof. Artes. COUTINHO,MAP</I>.<br>Idealizador do Estúdio TAO<br>"Ensinar é fazer o verdadeiro bem com o que se tem de mais valioso e que se recebe do Universo, o conhecimento.<br> O conhecimento deve se tornar pleno com uma base conceitual em um mundo mental, mas também, sem esquecermos da base material do mundo físico.<br> Arte e Ciência andam juntas!<br> O conhecimento é bom e faz bem se é um conhecimento que pode dar origem a um algo a mais, que é criado pelo conhecedor. De outra forma, seria apenas repertório, uma memória sem consciência.<br>Buscamos uma forma didática integrada e a favor do ser humano. <br>A busca pelo conhecimento holístico passa pelo caminho inclusivo e agregador, sem viés preconceituoso. Por causa desta visão holística entendemos que é preciso sempre ressaltar os entrecruzamentos e as transferências entre as disciplinas variadas. Estas conexões são viabilizadas pela conversa proporcionada pelas <I>“Artes Liberais”<I>, a dizer: Aritmética, Geometria, Música, Cosmogonia, Gramática, Lógica, Retórica, as tecnologias e os ofícios.<br>Esperamos sinceramente que todos os seres humanos possam conhecer, de uma forma realmente libertária, sem preconceitos e cheia de bons conceitos!<br> Mas, o mais importante é divirta-se!"<hr></p>
+		
+	<!-- End smartphone / tablet look -->
+	</div>
+
+			<script>
+			function myFunction() {
+			  var x = document.getElementById("myLinks");
+			  if (x.style.display === "block") {
+				x.style.display = "none";
+			  } else {
+				x.style.display = "block";
+			  }
+			 }
+			  function contato(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+			function oficinaVideoGameDePapel(){
+				var url = "http://www.google.com";
+				window.open(url, '_top');
+			  	}
+			function principal(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/index.html";
+				window.open(url, '_top');
+				}
+				
+			function cursoJogosAnalogicos(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoJogosAnalogicos.html";
+				window.open(url, '_top');
+			  	}
+			function cursoDesignArteJD(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoDesignArteJD.html";
+				window.open(url, '_top');
+			  	}
+			function cursoProgramJD(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CursoProgramJD.html";
+				window.open(url, '_top');
+			  	}
+			function cursoProcedural(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_AnimacaoProcedural.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGEmpresas(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Empresas.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGDidatico(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Academico.html";
+				window.open(url, '_top');
+			  	}
+			function cursoRPGCriancas(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_RPG_Criancas.html";
+				window.open(url, '_top');
+			  	}
+			function cursoWEB(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_WEB.html";
+				window.open(url, '_top');
+			  	}
+			function cursoVGPapel(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_VG_Papel.html";
+				window.open(url, '_top');
+			  	}
+			function jogoMobileSR71(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_SR71.html";
+				window.open(url, '_top');
+			  	}
+			function jogoCuteSpooky(){
+				var url = "https://dedeokid.github.io/EstudioTAO.github.io/Mobile_TAO_CuteSpooky.html";
+				window.open(url, '_top');
+			  	}
+				
+			var video = document.getElementById("myVideo");
+			var btn = document.getElementById("myBtn");
+
+			function backVideo() {
+			  if (video.paused) {
+				video.play();
+				btn.innerHTML = "Pause";
+			  } else {
+				video.pause();
+				btn.innerHTML = "Play";
+			  }
+			}
+			
+
+			</script>
+			
+			
+			
+	</body>
+</html>
+
